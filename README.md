@@ -1,56 +1,52 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Math Magicians
 
-> Description the project.
-
+<a href="https://github.com/TahenyBELGUITH/to-dos-list-react/build/"></a>
+> This is a Todo List web app made by  
+following React Tutorial From Scratch: A Step-by-Step Guide (2021) by Ibas Majid!
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- React
+- JavaScript (ES6)
+- CSS
 
-## Live Demo (if available)
+## Live Demo
 
-[Live Demo Link](https://livedemo.com)
-
+:fire::fire:    :fire::fire:
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
+To get a local copy up and running follow these simple steps:
 
 ### Prerequisites
 
+- Node.js
+- npm
+
 ### Setup
 
-### Install
+- Clone the project
+```terminal
+git clone https://github.com/TahenyBELGUITH/to-dos-list-react.git
+```
 
-### Usage
+- cd into the project directory
+```terminal
+cd to-dos-list-react
+```
 
-### Run tests
+- Once you've cloned the repo and are inside the directory, run `npm install` command to get all necessary installations.
 
-### Deployment
+- **Yep, that's it!** you are now all set and simply run `npm start` to get your clone up and running on the browser.
 
+## Author
 
+### 👩 Taheny BELGUITH
 
-## Authors
-
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@TahenyBELGUITH](https://github.com/TahenyBELGUITH)
+- Twitter: [@BelguithTaheny](https://twitter.com/BelguithTaheny)
 
 ## 🤝 Contributing
 
@@ -66,7 +62,7 @@ Give a ⭐️ if you like this project!
 
 - Hat tip to anyone whose code was used
 - Inspiration
-- etc
+- etc.
 
 ## 📝 License
 
