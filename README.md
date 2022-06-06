@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Math Magicians
+# to-dos-list-react
 
 <a href="https://github.com/TahenyBELGUITH/to-dos-list-react/build/"></a>
 > This is a Todo List web app made by  
