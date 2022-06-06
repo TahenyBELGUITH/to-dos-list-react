@@ -1,6 +1,6 @@
-import React from "react";
-import { useRouteMatch, Route, Link } from "react-router-dom";
-import SinglePage from "./SinglePage";
+import React from 'react';
+import { useRouteMatch, Route, Link } from 'react-router-dom';
+import SinglePage from './SinglePage';
 
 const About = () => {
   const { url, path } = useRouteMatch();

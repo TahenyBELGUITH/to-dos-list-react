@@ -1,11 +1,13 @@
+/* eslint-disable */
+
 import React, { useState, useEffect } from "react";
+import { v4 as uuidv4 } from "uuid";
+import { Route, Switch } from "react-router-dom";
 import Header from "./Header";
 import InputTodo from "./InputTodo";
 import TodosList from "./TodosList";
-import { v4 as uuidv4 } from "uuid";
-import { Route, Switch } from "react-router-dom";
-import About from "../functionBased/pages/About";
-import NotMatch from "../functionBased/pages/NoMatch";
+import About from "./pages/About";
+import NotMatch from "./pages/NoMatch";
 import Navbar from "./Navbar";
 
 const TodoContainer = () => {
@@ -33,17 +35,13 @@ const TodoContainer = () => {
   };
 
   const delTodo = (id) => {
-    setTodos([
-      ...todos.filter((todo) => {
-        return todo.id !== id;
-      }),
-    ]);
+    setTodos([...todos.filter((todo) => todo.id !== id)]);
   };
 
   const addTodoItem = (title) => {
     const newTodo = {
       id: uuidv4(),
-      title: title,
+      title,
       completed: false,
     };
     setTodos([...todos, newTodo]);
